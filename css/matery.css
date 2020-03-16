@@ -304,7 +304,11 @@ header .brand-logo .logo-img {
     padding-bottom: 6px;
 }
 
-header .brand-logo .logo-span {
+.logo-span {
+    font-size: 1.6rem;
+}
+
+header .brand-logo {
     font-size: 2rem;
 }
 
@@ -584,7 +588,7 @@ header .go-back i {
 }
 
 .bg-cover .title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 1.85em;
     margin-bottom: 20px;
     position: relative;
