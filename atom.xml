@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cuiyanchang.com/"/>
-  <updated>2020-03-17T04:47:50.825Z</updated>
+  <updated>2020-03-17T05:49:26.235Z</updated>
   <id>https://cuiyanchang.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://cuiyanchang.com/f82e.html"/>
+    <id>https://cuiyanchang.com/f82e.html</id>
+    <published>2020-03-17T05:47:02.000Z</published>
+    <updated>2020-03-17T05:49:26.235Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="test-测试" scheme="https://cuiyanchang.com/tags/test-%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo命令及Markdown语法</title>
