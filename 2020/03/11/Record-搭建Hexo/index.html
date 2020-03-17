@@ -369,7 +369,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    278
+                    330
                 </div>
                 
 
@@ -382,9 +382,27 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>好久不见！两年前的一天心血来潮的通过 Github+Hexo 搭建了一个属于自己的个人博客。后来新鲜感一过被各种事情耽搁就没有在继续更新了，时间一长也就慢慢忘记了她的存在，直到某一天电脑清盘做了系统，她和我就在不经意间说了再见···<br>两年的时间就这样慢慢过去了，我在专业领域探索的步伐从未停歇，对于前端知识的学习也逐渐由浅入深。可能是天天接触电脑的缘故吧，现在的我在学习的过程中记笔记已经很大程度上脱离了传统的笔和纸，而逐渐习惯采用云笔记的记载方式。就在昨天自己翻看有道云笔记APP中的Markdown笔记突然想起来我好久未见的Blog。于是，就有了现在多看到的这个页面。（朋友圈发习惯了好想在这里打上几个表情啊，碍于麻烦和懒就忍了！haha~）</p>
-<a id="more"></a>
-<h4 id="未完待续…"><a href="#未完待续…" class="headerlink" title="未完待续…"></a>未完待续…</h4>
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>好久不见！两年前的一天心血来潮的通过 Github+Hexo 搭建了一个属于自己的个人博客。后来新鲜感一过被各种事情耽搁就没有在继续更新了，时间一长也就慢慢忘记了她的存在，直到某一天电脑清盘做了系统，她和我就在不经意间说了再见···<br>两年的时间就这样慢慢过去了，我在专业领域探索的步伐从未停歇，对于前端知识的学习也逐渐由浅入深。可能是天天接触电脑的缘故吧，现在的我在学习的过程中记笔记已经很大程度上脱离了传统的笔和纸，而逐渐习惯采用云笔记</p>
+<pre><code>的记载方式。就在昨天自己翻看有道云笔记APP中的Markdown笔记突然想起来我好久未见的Blog。于是，就有了现在多看到的这个页面。（朋友圈发习惯了好想在这里打上几个表情啊，碍于麻烦和懒就忍了！haha~）</code></pre><a id="more"></a>
+<h4 id="未完待续…"><a href="#未完待续…" class="headerlink" title="未完待续…"></a>未完待续…</h4><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -877,30 +895,32 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/03/11/Record-%E6%90%AD%E5%BB%BAHexo/">
+                <a href="/2020/03/17/hexo%E5%91%BD%E4%BB%A4%E5%8F%8AMarkdown%E8%AF%AD%E6%B3%95/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Record-我们的前缘往事·博客搭建篇">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="hexo命令及Markdown语法">
                         
-                        <span class="card-title">Record-我们的前缘往事·博客搭建篇</span>
+                        <span class="card-title">hexo命令及Markdown语法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            前言好久不见！两年前的一天心血来潮的通过 Github+Hexo 搭建了一个属于自己的个人博客。后来新鲜感一过被各种事情耽搁就没有在继续更新了，时间一长也就慢慢忘记了她的存在，直到某一天电脑清盘做了系统，她和我就在不经意间说了再见···两年
+                            
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-11
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-17
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -908,15 +928,6 @@
                             
                         </span>
                     </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BAgithub%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">使用hexo搭建github博客</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -941,6 +952,10 @@
                     <div class="summary block-with-text">
                         
                             Hello World! Hello Hexo!Next to meet blog!Best wishes for the coming of you!
+Markdown语法测试
+
+
+        document.querySelect
                         
                     </div>
                     <div class="publish-info">
@@ -1148,7 +1163,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">293</span>&nbsp;字
+                class="white-color">454</span>&nbsp;字
             
             
             
