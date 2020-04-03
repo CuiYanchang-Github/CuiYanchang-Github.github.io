@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cuiyanchang.com/"/>
-  <updated>2020-03-24T17:34:01.103Z</updated>
+  <updated>2020-04-03T03:53:55.861Z</updated>
   <id>https://cuiyanchang.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Campus-tour-guide-system</title>
+    <link href="https://cuiyanchang.com/Campus-tour-guide-system.html"/>
+    <id>https://cuiyanchang.com/Campus-tour-guide-system.html</id>
+    <published>2020-04-03T03:42:52.000Z</published>
+    <updated>2020-04-03T03:53:55.861Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;黑大校园导游系统-实例展示&quot;&gt;&lt;a href=&quot;#黑大校园导游系统-实例展示&quot; class=&quot;headerlink&quot; title=&quot;黑大校园导游系统-实例展示&quot;&gt;&lt;/a&gt;黑大校园导游系统-实例展示&lt;/h3&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="黑大校园导游系统-实例展示" scheme="https://cuiyanchang.com/tags/%E9%BB%91%E5%A4%A7%E6%A0%A1%E5%9B%AD%E5%AF%BC%E6%B8%B8%E7%B3%BB%E7%BB%9F-%E5%AE%9E%E4%BE%8B%E5%B1%95%E7%A4%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>Integrated-calculator</title>
